@@ -1,0 +1,20 @@
+
+body {
+  background-color: #fafafa;
+  color: #000000;
+}
+body.modo-escuro {
+  background-color: #000000f1;
+  color: #fafafa;
+}
+body.modo-escuro #square {
+  background-color: #000000;
+}
+body.modo-escuro #txtNome,
+body.modo-escuro #txtTelefone,
+body.modo-escuro #txtOrigem,
+body.modo-escuro #txtDataContato,
+body.modo-escuro #txtObservacao {
+  background-color: #000000f1;
+  color: #fafafa;
+}
